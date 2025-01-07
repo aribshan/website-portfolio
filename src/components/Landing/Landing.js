@@ -8,8 +8,6 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
-const CV = "/Arib_CV.pdf";
-
 import {
     FaTwitter,
     FaLinkedin,
@@ -17,6 +15,8 @@ import {
     FaYoutube,
     FaBlogger,
 } from 'react-icons/fa';
+
+const CV = "/Arib_CV.pdf";
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
