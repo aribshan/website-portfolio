@@ -16,6 +16,15 @@ export const achievementData = {
         },
         {
             id : 2,
+            title : 'Inter IIT Tech Gold 2023-2024',
+            details : 'Participated as a developer in two competitions for IIT Kharagpur, winning the overall Gold in inter IIT Tech 2023-24.',
+            // date : 'Aug 20, 2019',
+            field : 'Inter IIT Competition',
+            image : interIIT,
+            link: 'https://drive.google.com/file/d/16hM9b1t-BRV0WgRW2Qd_kjvCV7NdVSpB/view?usp=drive_link'
+        },
+        {
+            id : 3,
             title : 'Guardian on Leetcode',
             details : 'Ranked among the top 0.7% in terms of rating on the platform.',
             // date : 'Aug 20, 2019',
@@ -23,16 +32,6 @@ export const achievementData = {
             image : leetcode,
             link : 'https://leetcode.com/shootingstar33/'
         },
-        {
-            id : 3,
-            title : 'Inter IIT Tech Gold 2023-2024',
-            details : 'Participated as a developer in two competitions for IIT Kharagpur, winning the overall Gold in inter IIT Tech 2023-24.',
-            // date : 'Aug 20, 2019',
-            field : 'Inter IIT Competition',
-            image : interIIT,
-            link: 'https://leetcode.com/shootingstar33/'
-        }
-
     ]
 }
 

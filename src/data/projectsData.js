@@ -29,6 +29,15 @@ export const projectsData = [
     },
     {
         id: 3,
+        projectName: 'Portfolio website',
+        projectDesc: 'My protfolio website.',
+        tags: ['React'],
+        code: 'https://github.com/aribshan/website-portfolio',
+        demo: 'https://aribshan.netlify.app/',
+        image: five
+    },
+    {
+        id: 4,
         projectName: 'Some Quant Project',
         projectDesc: 'Add some description.',
         tags: ['Python', 'IDK'],
@@ -37,23 +46,15 @@ export const projectsData = [
         image: three
     },
     {
-        id: 4,
+        id: 5,
         projectName: 'Web-based Promotional Game',
         projectDesc: 'This project is  a three-level game for promotion of a movie and received an engagement of over 3,00,000 people across India and more than 5,000 registrations on the platform.',
         tags: ['React', 'Unity 3D'],
-        // code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        // demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'NA',
+        demo: 'NA',
         image: four
     },
-    // {
-    //     id: 5,
-    //     projectName: 'E-Commerce App',
-    //     projectDesc: 'A Simple E-commerce application',
-    //     tags: ['React Native', 'Firebase'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: five
-    // },
+    
     // {
     //     id: 6,
     //     projectName: 'Uber Lite',
