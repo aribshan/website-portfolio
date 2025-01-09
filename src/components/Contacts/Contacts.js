@@ -141,14 +141,20 @@ function Contacts() {
                 };
 
                 axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
+                    console.log('Message sent successfully');
                     setSuccess(true);
-                    setErrMsg('');
-
+                    setErrMsg('Message sent successfully!');
+                    setOpen(true);
                     setName('');
                     setEmail('');
                     setMessage('');
                     setOpen(false);
+                    setErrMsg('');
+                })
+                .catch((error) => {
+                    console.error('Error sending message:', error);
+                    setErrMsg('Failed to send message');
+                    setOpen(true);
                 });
             } else {
                 setErrMsg('Invalid email');
