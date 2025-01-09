@@ -267,7 +267,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#contacts'
+                                to='/#contact'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
