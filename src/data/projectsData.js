@@ -29,6 +29,15 @@ export const projectsData = [
     },
     {
         id: 3,
+        projectName: 'Stock Portfolio Analysis',
+        projectDesc: 'A website to view and compare stocks, and also visualize personal portfolio.',
+        tags: ['Python', 'Streamlit', 'yfinance'],
+        code: 'https://github.com/aribshan/stock-analysis',
+        demo: 'https://stock-analysis-arib.streamlit.app/',
+        image: three
+    },
+    {
+        id: 4,
         projectName: 'Portfolio website',
         projectDesc: 'My protfolio website.',
         tags: ['React'],
@@ -36,15 +45,7 @@ export const projectsData = [
         demo: 'https://aribshan.netlify.app/',
         image: five
     },
-    {
-        id: 4,
-        projectName: 'Some Quant Project',
-        projectDesc: 'Add some description.',
-        tags: ['Python', 'IDK'],
-        code: 'NA',
-        demo: 'NA',
-        image: three
-    },
+
     {
         id: 5,
         projectName: 'Web-based Promotional Game',
