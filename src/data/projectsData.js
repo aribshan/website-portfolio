@@ -15,6 +15,7 @@ export const projectsData = [
         projectDesc: 'TThis is a simple low latency trading sim to process binary market feeds, maintain a lock-free order book, and execute trades.',
         tags: ['C++17', 'thread-safe', 'multithreading', 'UDP'],
         code: 'https://github.com/aribshan/Low-Latency-Trading-Simulator',
+        demo: 'https://github.com/aribshan/Low-Latency-Trading-Simulator',
         image: one
     },
     {
