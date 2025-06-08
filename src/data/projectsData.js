@@ -11,11 +11,10 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Virtual Reality Laboratories',
-        projectDesc: 'This project facilitates training for the intricate laboratory processes utilizing sophisticated machinery using Virtual Reality.',
-        tags: ['Unity 3D', 'VR', 'Blender'],
-        code: 'https://github.com/aribshan/SiliconFabrication',
-        demo: 'https://youtu.be/oAgPavAKCRE',
+        projectName: 'Low-Latency Trading Simulator',
+        projectDesc: 'TThis is a simple low latency trading sim to process binary market feeds, maintain a lock-free order book, and execute trades.',
+        tags: ['C++17', 'thread-safe', 'multithreading', 'UDP'],
+        code: 'https://github.com/aribshan/Low-Latency-Trading-Simulator',
         image: one
     },
     {
@@ -38,6 +37,15 @@ export const projectsData = [
     },
     {
         id: 4,
+        projectName: 'Virtual Reality Laboratories',
+        projectDesc: 'This project facilitates training for the intricate laboratory processes utilizing sophisticated machinery using Virtual Reality.',
+        tags: ['Unity 3D', 'VR', 'Blender'],
+        code: 'https://github.com/aribshan/SiliconFabrication',
+        demo: 'https://youtu.be/oAgPavAKCRE',
+        image: four
+    },
+    {
+        id: 5,
         projectName: 'Portfolio website',
         projectDesc: 'My protfolio website.',
         tags: ['React'],
@@ -47,13 +55,13 @@ export const projectsData = [
     },
 
     {
-        id: 5,
+        id: 6,
         projectName: 'Web-based Promotional Game',
         projectDesc: 'This project is  a three-level game for promotion of a movie and received an engagement of over 3,00,000 people across India and more than 5,000 registrations on the platform.',
         tags: ['React', 'Unity 3D'],
         code: 'NA',
         demo: 'NA',
-        image: four
+        image: six
     },
     
     // {
