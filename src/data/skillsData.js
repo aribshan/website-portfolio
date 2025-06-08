@@ -9,7 +9,6 @@
     'Docker',
     'React',
     'Blender',
-    'Ubuntu',
     'Numpy',
     'Pytorch',
     'Tensorflow',
